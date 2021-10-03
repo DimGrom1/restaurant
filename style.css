@@ -1,5 +1,10 @@
 *{
-    margin: auto;
+    margin: 0;
+    font-family: 'Bellota', cursive;
+    font-weight: 300;
+}
+h1,h2{
+    font-weight: 700;
 }
 header a{
     display: inline-block;
@@ -12,8 +17,8 @@ header a{
     vertical-align: middle;
 }
 header{
-    background: rgb(173, 173, 172);
-    width: 80%;
+    background: white;
+    width: 100%;
     margin: auto;
 }
 /* body{
@@ -21,30 +26,98 @@ header{
 } */.container{
     /* background: rgb(223, 55, 55); */
     background-size: cover;
-    width: 80%;
+    width: 100%;
     background-image: url(table.jpg);
     margin: auto;
     /* height: 600px; */
     padding-bottom: 200px;
-    padding-left: 15px;
+    padding-top: 25px;
+    padding-left: 30px;
     box-sizing: border-box;
     background-repeat: no-repeat;
 }
 .container p{
     color: rgb(43, 40, 40);
     font-size: 30px;
-    margin-left: 15px;
+    /* margin-top: 10px; */
+    margin-bottom: 25px;
+    /* margin-left: 15px; */
 }
 .container h1{
     color: rgb(43, 40, 40);
+    margin-bottom: 25px;
     font-size: 50px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 .containerP{
     background: white;
     width: 450px;
     padding: 25px;
-    height: 150px;
+    margin-bottom: 25px;
+    /* height: 150px; */
     border-radius: 25px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
+}
+.eatcard{
+    height: 500px;
+    width: calc(25% - 80px);
+    transform: translateY(-100px);
+    background-image: url(1234567.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin: 0 40px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    object-fit: cover;
+    transition: 0.5s;
+    display: inline-block;
+}
+.eatcard:hover{
+    opacity: 0.7;
+}
+.eatcard:nth-of-type(2){
+    background-image: url(1234.jpg);
+}
+.eatcard:nth-of-type(3){
+    background-image: url(rol.jpg);
+}
+.eatcard:nth-of-type(4){
+    background-image: url(321.jpg);
+}
+.eat{
+    text-align: center;
+    /* margin: auto;  */
+    width: 100%;
+    font-size: 0;
+    text-decoration: none;
+    /* background: rgb(122, 122, 122); */
+}
+.menuButton{
+    text-decoration: none;
+    height: 40px;
+    width: 130px;
+    display: inline-block;
+    border-radius: 25px;
+    background: white;
+    line-height: 40px;
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+img p{
+    font-size: 16px;
+    display: inline-block;
+    /* background: black; */
+    transform: translateY(-100px);
+}
+.name{
+    transform: translateY(400px);
+    color: black;
+    font-size: 45px;
+    text-decoration: none;
+    width: 100%;
+    background: white;
 }
